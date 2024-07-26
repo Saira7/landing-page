@@ -1,0 +1,17 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .service-item {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0; /* Ensure items start hidden */
+    transform: translateY(10px); /* Start slightly off position */
+  }
+  
